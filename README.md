@@ -67,7 +67,7 @@ To start monitoring a website:
 1. Open Postman or your preferred HTTP client.
 2. Set up a new request with the following details:
 </br>**Method**: POST (or as per your application design)
-</br>**URL**: http://localhost:\<port>/api/tracker/monitor (replace \<port> with port number you want to use)
+</br>**URL**: http://localhost:80/api/tracker/monitor
 </br>**Body**: {inputurl: \<url>} (replace \<url> with URL of a website you want to monitor. Make sure it is in raw JSON format)
 <img width="640" alt="postman-image" src="https://github.com/ryamada1015/website-monitoring-tool/assets/60910478/5fd63407-45d1-49c1-8ce9-450780ffafb8">
 
