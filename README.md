@@ -46,8 +46,7 @@ MongoDB Atlas is used as an example here.
 
 - Set up a database user with a username and password.
 - Configure IP Whitelist to allow connections from your application's IP address or range.
-- Connect to Your Cluster: After setting up your cluster and user, you'll be given a connection string. 
-Create a .env file and add this string to the file to connect to your MongoDB database.
+- Connect to Your Cluster: After setting up your cluster and user, you'll be given a connection string. Create a .env file and add this string to the file to connect to your MongoDB database.
 
 
 ## Usage
@@ -67,13 +66,17 @@ To start monitoring a website:
 </br>**Method**: POST (or as per your application design)
 <br/>**URL**: http://localhost:80/api/tracker/monitor
 </br>**Body**: {inputurl: <url>} (replace <url> with URL of a website you want to monitor. Make sure it is in raw JSON format.)
+<img width="640" alt="postman-image" src="https://github.com/ryamada1015/website-monitoring-tool/assets/60910478/5fd63407-45d1-49c1-8ce9-450780ffafb8">
+
 
 ### Viewing Results
-The results of the monitoring will be stored in your specified storage solution.
-Details on accessing and analyzing these results depend on how your application is set up.
+The results of the monitoring will be displayed in the console.
+Ex.
+<img width="332" alt="result-image" src="https://github.com/ryamada1015/website-monitoring-tool/assets/60910478/3edf2e4a-f0f4-4c25-b5e7-c7b3e8525e32">
+
 
 ## Contributions
 Contributions to the Website Monitoring Application are welcome. Please ensure to follow the code of conduct and contribution guidelines laid out in CONTRIBUTING.md.
 
-Support and Contact
-For support or to report issues, please file an issue in the GitHub repository or contact the maintainers at [your-email@example.com].
+## Support and Contact
+For support or to report issues, please file an issue in the GitHub repository or contact the maintainers at rikakoyamada.0927@gmail.com].
