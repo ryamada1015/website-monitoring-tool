@@ -24,7 +24,7 @@ Before setting up the application, ensure you have the following installed:
 
 ```
 git clone https://github.com/ryamada1015/website-monitoring-app.git
-cd website-monitoring-app
+cd website-monitoring-app/sensory-api
 ```
 
 
