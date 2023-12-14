@@ -17,6 +17,7 @@ Before setting up the application, ensure you have the following installed:
 - Node.js (version 12 or higher)
 - npm (usually comes with Node.js)
 - Postman or any HTTP client for sending requests
+- MongoDB (or any DBMS you like to use)
 
 ## Installation
 1. Clone the Repository
@@ -26,7 +27,9 @@ git clone https://github.com/your-repository/website-monitoring-app.git
 cd website-monitoring-app
 ```
 
+
 2. Install Dependencies
+Run these commands in website-monitoring-app\sensory-api
 
 ```
 npm install
@@ -35,6 +38,17 @@ npm install
 ## Configuration
 
 Set up your environment variables or configuration files as required by your application.
+MongoDB Atlas is used as an example here.
+
+1. Create a Cluster: Once logged in, create a new cluster.
+
+2. Configure Database Access:
+
+- Set up a database user with a username and password.
+- Configure IP Whitelist to allow connections from your application's IP address or range.
+- Connect to Your Cluster: After setting up your cluster and user, you'll be given a connection string. 
+Create a .env file and add this string to the file to connect to your MongoDB database.
+
 
 ## Usage
 ### Starting the Application
