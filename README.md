@@ -23,7 +23,7 @@ Before setting up the application, ensure you have the following installed:
 1. Clone the Repository
 
 ```
-git clone https://github.com/your-repository/website-monitoring-app.git
+git clone https://github.com/ryamada1015/website-monitoring-app.git
 cd website-monitoring-app
 ```
 
