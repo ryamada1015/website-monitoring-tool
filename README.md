@@ -38,6 +38,9 @@ npm install
 ## Configuration
 
 Set up your environment variables or configuration files as required by your application.
+Create a .env file in the directory, add a port number (80 by default) and a URI string for your database.
+
+### Database Setup
 MongoDB Atlas is used as an example here.
 
 1. Create a Cluster: Once logged in, create a new cluster.
@@ -46,7 +49,7 @@ MongoDB Atlas is used as an example here.
 
 - Set up a database user with a username and password.
 - Configure IP Whitelist to allow connections from your application's IP address or range.
-- Connect to Your Cluster: After setting up your cluster and user, you'll be given a connection string. Create a .env file and add this string to the file to connect to your MongoDB database.
+- Connect to Your Cluster: After setting up your cluster and user, you'll be given a connection string. Add this string to the .env file to connect to your MongoDB database.
 
 
 ## Usage
