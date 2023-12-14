@@ -64,6 +64,8 @@ npm start
 ```
 
 The application will start and listen for incoming HTTP requests to trigger monitoring tasks.
+</br><img width="454" alt="image" src="https://github.com/ryamada1015/website-monitoring-tool/assets/60910478/7b19393c-b30f-49ee-b18f-e5dabd7eece5">
+
 
 ### Triggering Monitoring
 To start monitoring a website:
