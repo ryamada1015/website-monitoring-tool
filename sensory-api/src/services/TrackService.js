@@ -164,18 +164,20 @@ class TrackService {
     // Capture all network requests and responses
     page.on("request", (request) => {
       console.log(`Request: ${request.url()}`)
-      requests.push(request.url())
+      requests.push(`Request: ${request.url()}`)
     })
 
     page.on("response", (response) => {
-      responses.push(response.url())
-      statuses.push(response.status())
+      responses.push(
+        `Response: ${response.url()} - Status: ${response.status()}`
+      )
+      //statuses.push(response.status())
       console.log(`Response: ${response.url()} - Status: ${response.status()}`)
     })
 
     await page.goto(url, { waitUntil: "networkidle2" })
 
-    networkActivity.push(requests, responses, statuses)
+    networkActivity.push(requests, responses)
 
     await browser.close()
   }
@@ -282,7 +284,11 @@ class TrackService {
 
 async function monitor(req, res) {
   try {
-    url = req.params.url
+    // url = "https://" + req.params.url
+    // console.log(`Started monitoring ${url}`)
+    // res.status(200).json({ message: `Started monitoring ${url}` })
+    const { inputurl } = req.body
+    url = inputurl
     console.log(`Started monitoring ${url}`)
     res.status(200).json({ message: `Started monitoring ${url}` })
   } catch (error) {
