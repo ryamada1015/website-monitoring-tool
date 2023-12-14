@@ -71,7 +71,7 @@ To start monitoring a website:
 
 ### Viewing Results
 The results of the monitoring will be displayed in the console.
-Ex.
+</br>Ex.
 <img width="332" alt="result-image" src="https://github.com/ryamada1015/website-monitoring-tool/assets/60910478/3edf2e4a-f0f4-4c25-b5e7-c7b3e8525e32">
 
 
