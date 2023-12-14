@@ -39,6 +39,10 @@ npm install
 
 Set up your environment variables or configuration files as required by your application.
 Create a .env file in the directory, add a port number (80 by default) and a URI string for your database.
+</br>Ex.
+</br><img width="647" alt="image" src="https://github.com/ryamada1015/website-monitoring-tool/assets/60910478/99c205cd-53f5-436a-aa22-94433c64c20b">
+
+
 
 ### Database Setup
 MongoDB Atlas is used as an example here.
